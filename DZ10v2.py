@@ -3,10 +3,10 @@ import random
 l_s = []
 l_e = []
 
-for i in range(25):
+for i in range(20):
     l_s.append(random.randint(20, 60))
 
-print("Список чисел  :", [l_s])
+print("Список чисел  :", l_s)
 # i = 1
 for i in range((len(l_s)) - 1):
     if i == ((len(l_s)) -1):
